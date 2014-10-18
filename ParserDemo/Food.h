@@ -12,12 +12,12 @@
 
 @property NSString *name;
 @property double price;
-@property NSString *description;
+@property NSString *foodDescription;
 @property int calories;
 
 - (id)initWithName: (NSString *)name
              price: (double)price
-       description: (NSString *)description
+       foodDescription: (NSString *)foodDescription
           calories: (int)calories;
 
 @end

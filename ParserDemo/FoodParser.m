@@ -76,7 +76,7 @@ foundCharacters:(NSString *)string {
     if ([elementName isEqualToString:@"food"]) {
         Food *thisFood = [[Food alloc] initWithName:self.currentName
                                               price:self.currentPrice
-                                        description:self.currentDescription
+                                        foodDescription:self.currentDescription
                                            calories:self.currentCalories];
         [self.foodArray addObject:thisFood];
     }

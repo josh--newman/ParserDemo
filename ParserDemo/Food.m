@@ -12,14 +12,14 @@
 
 - (id)initWithName: (NSString *)name
              price: (double)price
-       description: (NSString *)description
+       foodDescription: (NSString *)foodDescription
           calories: (int)calories {
     
     self = [super init];
     if (self) {
         self.name = name;
         self.price = price;
-        self.description = description;
+        self.foodDescription = foodDescription;
         self.calories = calories;
     }
     return self;

@@ -37,7 +37,7 @@
     if (self.foodItem) {
         self.nameLabel.text = self.foodItem.name;
         self.priceLabel.text = [NSString stringWithFormat:@"$%.2f", self.foodItem.price];
-        self.descriptionLabel.text = self.foodItem.description;
+        self.descriptionLabel.text = self.foodItem.foodDescription;
         self.caloriesLabel.text = [NSString stringWithFormat:@"%d", self.foodItem.calories];
     }
 }
